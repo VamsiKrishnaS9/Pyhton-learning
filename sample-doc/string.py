@@ -1,4 +1,8 @@
-#string data type
+#this program shows the number of characters in a given string
 
-lang_name='Python scripting'
+str = input("Enter a string: ")
 
+counter = 0
+for s in str:
+      counter = counter+1
+print("number of characters in the string:", counter)
