@@ -1,9 +1,7 @@
-# printing multiplication table using while loop 
+# this python program will provide the multiplication table of a given number using  for loop
 
-num = int(input("Enter a number : "))
+num = int(input("Enter the number : "))
 print("Multiplication table of", num)
-count = 1
-while count <= 10:
+for count in range(1, 11):
     product = num * count
     print(num, "x", count, "=", product)
-    count = count +1
