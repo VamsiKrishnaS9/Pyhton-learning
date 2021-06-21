@@ -2,7 +2,7 @@
 
 str = input("Enter a string: ")
 
-counter = 0
+count = 0
 for s in str:
-      counter = counter+1
-print("number of characters in the string:", counter)
+      count = count+1
+print("number of characters in the string:", count)
