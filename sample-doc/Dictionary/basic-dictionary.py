@@ -3,8 +3,9 @@
 # Student1={'Name':'Jason', 'Group':'Computer Science', 'Batch':3, 'Age':20, 'Gender':'Male'}
 # print(Student1['Group'])
 
-Students = {'Jason':{'Group':'Computer Science', 'Batch':3, 'Age':20, 'Gender':'Male'}}
-           # {'Zach' :{'Group':'Computer Science', 'Batch':3, 'Age':20, 'Gender':'Male'}}
+Student1 = {'Name':'Jason', 'Group':'Computer Science', 'Batch':3, 'Age':20, 'Gender':'Male'}
+Student2 = {'Name':'Tyler','Group':'Computer Science', 'Batch':2, 'Age':20, 'Gender':'Male'}
+Student3 = {'Name':'Ammy','Group':'Computer Science', 'Batch':2, 'Age':20, 'Gender':'Female'}
 
-print(Students['Jason'])
 
+print(Student3)
