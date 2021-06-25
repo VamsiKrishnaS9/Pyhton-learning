@@ -1,2 +1,2 @@
 fruits = ["Apples", "Oranges", "Kiwi", "Banana"]
-print ("fruits")
+print (fruits)
